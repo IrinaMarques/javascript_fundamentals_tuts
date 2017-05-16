@@ -1,0 +1,25 @@
+Variables:
+- Container for a value
+- JavaScript is weakly/dynamically typed
+- No need to specify variable types
+- Variable types can change
+- Sometimes we don't know a variable's type
+
+Declare a variable with the var keyword followed by the name or identifier of the variable
+
+var
+- Variable.
+
+var x;
+- Variable x is undefined.
+
+var x = 42;
+- Now the var contains the numeric value 42.
+
+Rules:
+- Variable name should be descreptive to give the indication of what it contains
+- First letter of each word should be capitalized execept the first letter - meaningOfLife
+- Use any Unicode character in an identifier - start with an underscore, the dollar sign or a letter
+
+Summary:
+- Declare variables with var
