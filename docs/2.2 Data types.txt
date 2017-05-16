@@ -1,0 +1,77 @@
+Data types
+- Loosely typed language
+- Few types
+
+1. Primitives
+- number - primaty data type
+- string - primaty data type
+- boolean - primaty data type
+- undefined - special data type
+- null - special data type
+
+1.1 Primary data types
+Number:
+- Any positive or negative integer or decimal
+- Greater than 5e-324
+- Less than 1.797693134623157e+308
+
+- Octal
+- Exponential
+- Hexadecimal
+
+If we try to use a number outside of the supported range we get:
+- +Infinity
+- -Infinity
+- Infinity is a special number
+If we try to do something invalid to a number (e.i. divide it by a string)
+- NaN - Not a Number (another special number)
+- Nothing is equal to NaN not even itself, use ISNaN() to check
+
+2. String
+- a sequence of characters within quotes
+- can be double or single quotes, single are recommended
+- quotes can be nested, but must match
+
+3. Boolean
+- only two values - true or false
+- javascript also has truthy and falsey values
+
+Falsey values:
+- false
+- 0
+- ''
+- null
+- undefined
+- Nan
+All other values are truthy!
+
+1.2 Special data types
+- Undefined 
+- Null 
+
+When we declare a variable but not the value we get the undefined data type.
+In some situations it is treated as the same as the null data type.
+Undefined it's not a variable but can be used as the value for a variable. 
+Null ia a data type that is used in place of any regular value.
+
+2. Composite data types - multiple entities:
+- Array
+- Object
+
+Array
+- container for multiple values
+- fixed numerical indices
+- indices are sero-based
+- [0,1,2,3]
+- all arrays have a length property
+- have methods used to operate on the array items
+
+Objects
+- container for key value pairs
+- each key value is separated by a comma
+- key and value separated by colon
+- similar to an array except they have indeces based on words instead of numbers
+
+Summary:
+Primitives: number, string, boolean, undefined, null
+Composite: array, object
