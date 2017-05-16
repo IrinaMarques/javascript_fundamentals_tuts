@@ -1,0 +1,28 @@
+================
+1. Introduction
+================
+
+Comments
+Two forms of comments:
+- Single line
+- Multiline
+
+The console
+- Used to debugging
+- Check variables or return value of functions
+- Available in all modern browsers
+
+console.log()
+
+Alerts
+- Modal dialog box
+- Blocks the browser UI
+- Most basic form of debugging
+- Objects and arrays cannot be expanded
+- Favor console logs over alerts
+
+alert()
+
+Summary: 
+- Log to the console with: console.log()
+- Log to an alert with: alert()
