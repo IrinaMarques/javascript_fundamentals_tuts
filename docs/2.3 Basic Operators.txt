@@ -1,0 +1,37 @@
+1. Basic Operators
+- Plus sign +
+- Minus sign -
+- Star character *
+- Forward slash /
+
+2. Modulus 
+- %
+- Remainder after dividing two numbers
+- Increment ++
+- Decrement --
+
+Postfix mode 
+exampleVariable++
+exampleVariable--
+
+Prefix mode 
+++exampleVariable
+--exampleVariable
+
+3. Assignment operators
+- Simple assignment uses a single equals sign =
+- Addition assignment
+- Subtraction assignment
+
+4. Comparison operators
+- use in conditionals like if statements
+- equality comparison
+- greater-than comparison
+- less-than comparison
+
+Summary
+- Arithmetic operators + - * /
+- Assignement operators = += -= *= /= %=
+- Comparison operators == === != !==
+
+- Avoid non-strict comparisons == !=
