@@ -1,0 +1,21 @@
+Operator precedence
+- The order in which the operands are evaluated in. 
+- Applies when multiple operators are used in a single expression
+
+() - highest precedence of any operator
+If we use the two operators of equal precedence they are sometimes evaluated left to right.
+
+List from highest to lowest precedent:
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+
+Hight to low:
+1 -()
+2 - increments and decrements (right to left)
+3 - not and unary operators (right to left)
+4 - Arithmetic operators - multiplication, division, modulus, addition and subtraction (left to right)
+5 - And, and or
+6 - Comma operator (lowest precedence)
+
+Summary: 
+- Operators are evaluated according to their precedence, which is somewhat complex. 

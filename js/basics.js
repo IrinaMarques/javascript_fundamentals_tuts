@@ -73,3 +73,8 @@ var modulusAssignment = 5;
 modulusAssignment  %=2; //modulusAssignment = 1
 
 //4. Comparison operators
+
+// OPERATOR PRECEDENCE
+var precedence = 1 + 4 * 2; // precedence = 9 the multiplication cames first then the addiction so 4*2+1
+var precedence2 = (1+4) * 2; // precedence2 = 10 put in parenthisis to get the result that was expected
+var precedence3 = 2 + 10 - 2; // precedence2 = 10 same precedence 
