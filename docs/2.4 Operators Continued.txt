@@ -1,0 +1,45 @@
+1. Unary Operators
+- Used with a single operand
+- Unary plus operator converts an operand to a number
+
+On the console:
++true // returns '1'
++'2' // returns '2'
++'whoops' // returns NaN
+-true // returns '-1'
+!true // returns false
+
+2. Typeof Operator
+- Used to get the type of something in a string form
+- Check if a variable if of a particular type
+
+On the console:
+typeof 1 // returns 'number'
+typeof 'hello' //returns 'string'
+typeof true // returns 'boolean'
+typeof [] // return 'object'
+tupeof null // return 'object'
+
+3. Logical Operators and And, Or:
+- Used in conditionals
+- And Operator all of the operands must return true for the expression return true.
+- Or Operator returns true if any of the operands return true
+- Comma Operator evaluates each operand and returns the value of the last expression
+
+&& - And Operator
+On the console.
+!!(true && 1) // return true
+And operator doesn't have to be used with boolean values.
+true && false // return false
+
+|| - Or Operator
+On the console
+false || true // returns true
+
+, - Comma Operator
+On the console
+(console.log('compound'), 1 + 1) // returns compound 2
+
+Summary:
+- Unary operators + - ! void typeof delete (single operand)
+- Logical operators && || (and or)
