@@ -78,3 +78,40 @@ modulusAssignment  %=2; //modulusAssignment = 1
 var precedence = 1 + 4 * 2; // precedence = 9 the multiplication cames first then the addiction so 4*2+1
 var precedence2 = (1+4) * 2; // precedence2 = 10 put in parenthisis to get the result that was expected
 var precedence3 = 2 + 10 - 2; // precedence2 = 10 same precedence 
+
+//OBJECTS
+//1. Object literal syntax
+var object = {
+	property1 : true,
+	property2 : 'hello'
+}
+
+// string literal syntax
+var string = 'hello';
+var stringObject = new String ('An object string');
+
+function getThingByColour(colour) {
+	var things = {
+		red:'a-red-thing',
+		green: 'a-green-thing',
+		blue: 'a-blue-thing' 
+	};
+	return things[colour] || 'Sorry, no thing of that colour exists';
+} 
+
+// declare literal object
+var obj = {};
+var obj2 = {name: 'Silvia'};
+
+obj2.name = 'Silvia';
+obj2['name'] = 'Silvia';
+
+var person = {};
+
+person.name = Anna;
+person.sayMyName = function() {
+	return this.name;
+}
+
+person.sayMyName()
+person.name

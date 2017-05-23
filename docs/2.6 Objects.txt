@@ -1,0 +1,23 @@
+Objects:
+- Consist of a series of comma-separated key value pairs within curly braces
+The key are value pairs are known as properties
+The identifiers are called keys
+Their values are values
+
+Create objects
+1. Object literal syntax
+2. Using the new keyword
+
+The dot is a special type of operator known as a property accessor.
+
+To declare an object:
+var obj = {};
+var obj2 = {name: 'Silvia'};
+
+obj2.name = 'Silvia';
+obj2['name'] = 'Silvia';
+
+Summary:
+- Access properties with . or [] syntax
+- Add properties with . and =
+- We can create primitives using new - But don't!
