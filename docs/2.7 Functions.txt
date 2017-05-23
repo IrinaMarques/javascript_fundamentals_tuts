@@ -1,0 +1,46 @@
+Functions:
+A logical grouping of one or more expressions
+Invoked arbitraruly to execute the expressions
+
+Declare a function:
+1. Function declaration
+
+function keyword > by the function's identifier or name > opening and closing parenthesis > opening and closing curly braces
+
+function myFunction() {
+	console.log('Hello from the function');
+}
+
+functions always return a value
+
+What the function returns depends on the purpose of the function:
+i.e - compute some value - return this.value;
+When the function returns it stops executing
+
+2. Functions expressions
+Function is stored in a variable
+
+function myOtherFunction = function () {
+	console.log('function expression');
+}
+
+myOtherFunction is the name of the variable
+
+3. Callback functions: Pass functions to other functions as arguments and have the receiving function invoke them.
+
+Variables are processed before any other code is executed so it's adviced to declare variables on the start of the function.  
+
+Just like variables functions created using the function declaration are evaluated before other code, and so are hoisted to the top of their scope. Can lead to inconsistent or unexpected results when they are invoked. 
+
+Functions expressions are not hoisted.
+
+4. Define funtions so they are invoked automatically.:
+- wrap in a extra set of parentheses 
+- leading bang syntax
+
+Summary: 
+- Use function declarations or function expressions
+- Name arguments in parentheses after the function identifier
+- Use an extra set of parentheses to invoke immediately
+- Function expressions are stored in a variable
+- Variables and functions are hoisted to the top of their scope

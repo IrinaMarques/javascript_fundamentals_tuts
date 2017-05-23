@@ -115,3 +115,44 @@ person.sayMyName = function() {
 
 person.sayMyName()
 person.name
+
+// 2.7 FUNCTIONS
+/* 
+function declaration:
+- name: myFunction
+- accepts no parameters because the parenthesis are empty
+- function body: statement to execute when the function is invoked are inside the curly braces
+*/
+function myFunction() {
+	console.log('Hello from the function');
+}
+
+// to call the function we use the function's name followed by a single set of parentheses
+
+function mySecondFunction(message) {
+	console.log(message);
+
+	return true;
+}
+
+function myOtherFunction = function myOtherFunction() {
+	console.log('function expression');
+}
+
+// call the myFunction('woohoo!') it will return 'woohoo!' undefined
+// we specify the return so when we call the function she will return true
+
+console.log(hoistedVariable);
+var hoistedVariable = 'test';
+// This is exactly as if we had declared a variable before the console log statement
+
+// console.log(undeclaredVariable);
+// Try to log a variable never declare we get a reference error and will halts program execution
+
+(function invokedImmediatly(){
+	console.log('invoked automatically')
+}());
+
+!function alsoInvokedAutomatically() {
+	console.log('invoked automatically too')
+}();
