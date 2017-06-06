@@ -100,6 +100,7 @@ function getThingByColour(colour) {
 } 
 
 // declare literal object
+/*
 var obj = {};
 var obj2 = {name: 'Silvia'};
 
@@ -115,7 +116,7 @@ person.sayMyName = function() {
 
 person.sayMyName()
 person.name
-
+*/
 // 2.7 FUNCTIONS
 /* 
 function declaration:
@@ -135,7 +136,7 @@ function mySecondFunction(message) {
 	return true;
 }
 
-function myOtherFunction = function myOtherFunction() {
+var myOtherFunction = function myOtherFunction() {
 	console.log('function expression');
 }
 
@@ -156,3 +157,12 @@ var hoistedVariable = 'test';
 !function alsoInvokedAutomatically() {
 	console.log('invoked automatically too')
 }();
+
+//SCOPE
+
+var global = 1;
+function aFunction() {
+	var local = 2;
+	console.log(global);
+	console.log(local);
+} 

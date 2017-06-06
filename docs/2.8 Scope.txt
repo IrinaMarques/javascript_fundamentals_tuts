@@ -1,0 +1,39 @@
+Scope:
+
+Defines:
+- The visability/acessibility of variables in our code
+- Global scope is the top level scope that contains all other scopes
+- Global scope === window object
+
+Globals
+- Global variables are visible everywhere 
+- Can be overwritten by others scripts
+
+The window object:
+- Numerous properties and methods for us to use
+
+
+
+How to create a new Scope?
+ 
+Function scope:
+- Functions create their own scope
+- Variables created in a function are local to the function - they are local variables instead of global variables
+- Invisible/inaccessible outside a function
+
+- Functions can acess all their own variables
+- And variables in the same scope as the functions themselves
+
+- Only functions can create a scope
+- Global variables are leaky and pollute the global scope
+
+Avoid the global scope:
+- Use an immediately invoked function to create a local scope for your code
+
+Summary:
+- Scope
+- Visibility of variables in our code
+- Global var visible everywhere
+- Functions create their own scope
+- Local variables only visible to their function
+- Exploit this to protect var from the global scope
